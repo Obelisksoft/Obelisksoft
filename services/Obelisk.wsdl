@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.example.org/Obelisk/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Obelisk" targetNamespace="http://www.example.org/Obelisk/">
+    <wsdl:types><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Obelisk/"><xsd:element name="sumar">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="num1" type="xsd:integer"></xsd:element>
+			<xsd:element name="num2" type="xsd:integer"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType></xsd:element><xsd:element name="sumarResponse">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="resul" type="xsd:integer"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType></xsd:element>
+	<xsd:element name="login">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="user" type="xsd:string"></xsd:element>
+				<xsd:element name="passwd" type="xsd:string"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="loginResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="status" type="xsd:integer"></xsd:element>
+				<xsd:element name="message" type="xsd:string"></xsd:element>
+				<xsd:element name="timestap" type="xsd:string"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element></xsd:schema></wsdl:types>
+    <wsdl:message name="sumarRequest">
+    <wsdl:part name="parametro" element="tns:sumar"/>
+  </wsdl:message>
+  <wsdl:message name="sumarResponse">
+    <wsdl:part name="parametro" element="tns:sumarResponse"/>
+  </wsdl:message>
+  <wsdl:message name="loginRequest">
+  	<wsdl:part name="parameters" element="tns:login"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="loginResponse">
+  	<wsdl:part name="parameters" element="tns:loginResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listUsersRequest">
+    <wsdl:part name="parameters" element="tns:listUsers"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listUsersResponse">
+    <wsdl:part name="parameters" element="tns:listUsersResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="Obelisk">
+    <wsdl:operation name="sumar">
+      <wsdl:input message="tns:sumarRequest"/>
+      <wsdl:output message="tns:sumarResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+    	<wsdl:input message="tns:loginRequest"></wsdl:input>
+    	<wsdl:output message="tns:loginResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listUsers">
+      <wsdl:input message="tns:listUsersRequest"></wsdl:input>
+      <wsdl:output message="tns:listUsersResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ObeliskSOAP" type="tns:Obelisk">
+  	<wsdl:operation name="sumar">
+  		<soap:operation
+  			soapAction="http://www.example.org/Obelisk/sumar" />
+  		<wsdl:input>
+  			<soap:body namespace="http://www.example.org/Obelisk/"
+  				use="literal" />
+  		</wsdl:input>
+  		<wsdl:output>
+  			<soap:body namespace="http://www.example.org/Obelisk/"
+  				use="literal" />
+  		</wsdl:output>
+  	</wsdl:operation>
+  	<wsdl:operation name="login">
+  		<wsdl:input></wsdl:input>
+  		<wsdl:output></wsdl:output>
+  	</wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Obelisk">
+    <wsdl:port binding="tns:ObeliskSOAP" name="ObeliskSOAP">
+      <soap:address location="http://sgd.obelisksoft.com/services/service.php"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

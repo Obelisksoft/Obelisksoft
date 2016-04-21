@@ -1,0 +1,39 @@
+p {
+		line-height: 30px;
+	}
+	
+    .slide-out-div {
+       padding: 8px;
+        width: 345px;
+		border: #88bbd4 2px solid;
+		box-shadow: #878787 2px 2px 2px;
+		height:322px;
+		;
+    }
+
+    .file{
+    	cursor: pointer;
+    }
+    
+.lefttem{
+	cursor: pointer;
+	
+}
+
+.righttem{
+	cursor: pointer;
+}
+
+.zoom-in{
+	cursor: pointer;
+	
+}
+
+.zoom-out{
+	cursor: pointer;
+}
+
+.file-add-trd{
+	cursor: pointer;
+}
+    

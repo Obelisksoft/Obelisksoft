@@ -1,0 +1,18 @@
+/.gitignore/1.1/Sun May 24 17:09:11 2015//
+/.scrutinizer.yml/1.1/Sun May 24 17:09:11 2015/-kb/
+/.travis.yml/1.1/Sun May 24 17:09:11 2015/-kb/
+/CHANGES/1.1/Sun May 24 17:09:11 2015/-kb/
+/CONTRIBUTING.md/1.1/Sun May 24 17:09:11 2015//
+/LICENSE/1.1/Sun May 24 17:09:11 2015/-kb/
+/README.md/1.1/Sun May 24 17:09:11 2015//
+/box.json/1.1/Sun May 24 17:09:11 2015//
+/build.xml/1.1/Sun May 24 17:09:11 2015//
+/composer.json/1.1/Sun May 24 17:09:11 2015//
+/composer.lock/1.1/Sun May 24 17:09:11 2015/-kb/
+D/lib////
+/phpunit.xml.dist/1.1/Sun May 24 17:09:11 2015/-kb/
+D/src////
+D/tests////
+/wsdl2php/1.1/Sun May 24 17:09:11 2015/-kb/
+/wsdl2php.bat/1.1/Sun May 24 17:09:11 2015/-kb/
+/wsdl2php.php/1.1/Sun May 24 17:09:11 2015//

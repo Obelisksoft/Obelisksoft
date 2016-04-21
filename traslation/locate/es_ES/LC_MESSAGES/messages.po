@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ObeliskSoft 1.0\n"
+"POT-Creation-Date: 2015-02-24 08:33-0500\n"
+"PO-Revision-Date: 2015-04-20 12:06-0500\n"
+"Last-Translator: student <alejandro_villanueva_1980@hotmail.com>\n"
+"Language-Team: Obelisksfot <admin@obelisksoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+# TRANSLATION
+# LABEL/LOGIN
+#: LABEL/LOGIN
+#, fuzzy
+msgid "Login"
+msgstr "Ingresar"
+
+# TRANSLATION
+# LABEL/WARNING
+#: LABEL/WARNING
+#, fuzzy
+msgid "Warning"
+msgstr "Alvertencia"
+
+# TRANSLATION
+# LABEL/SEARCH RESULT FOR
+#: LABEL/SEARCH RESULT FOR
+#, fuzzy
+msgid "Search Results for"
+msgstr "Resultado de la Busqueda "
+
+# TRANSLATION
+# LABEL/USER NAME
+#: LABEL/USER NAME
+msgid "User Name"
+msgstr "Nombre de Usuario"
+
+# TRANSLATION
+# LABEL/DATA
+#: LABEL/DATA
+msgid "Data"
+msgstr "Datos"
+
+# TRANSLATION
+# LABEL/EMAIL CORRECT
+#: LABEL/EMAIL CORRECT
+msgid "The Email field is incorrect"
+msgstr "El campo correo es incorrecto"
+
+# TRANSLATION
+# LABEL/PASSWORD
+#: LABEL/PASSWORD
+msgid "Password"
+msgstr "Contraseña"
+
+# TRANSLATION
+# LABEL/USER
+#: LABEL/USER
+msgid "User"
+msgstr "Usuario"
+
+# TRANSLATION
+# LABEL/ADVANCED SEARCH
+#: LABEL/ADVANCE SEARCH
+msgid "Advanced search"
+msgstr "Busqueda Avanzada"
+
+# TRANSLATION
+# LABEL/CONFIGURATION
+#: LABEL/CONFIGURATION
+msgid "Configuration"
+msgstr "Configuracion"
+
+# TRANSLATION
+# LABEL/GROUPS
+#: LABEL/GROUPS
+msgid "Groups"
+msgstr "Grupos"
+
+# TRANSLATION
+# LABEL/INDEXES
+#: LABEL/INDEXES
+msgid "Indexes"
+msgstr "Índices"
+
+# TRANSLATION 
+# LABEL/INDEX
+#: LABEL/INDEX
+msgid "INDEX"
+msgstr "ÍNDICE"
+
+# TRANSLATION
+# LABEL/VALORATION ABLE
+#: LABEL/VALORATION TABLE
+msgid "Valoration table"
+msgstr "Tabla de Valoración"
+
+# TRANSLATION
+# LABEL/SYSTEM
+#: LABEL/SYSTEM
+msgid "System"
+msgstr "Sistema"
+
+# TRANSLATION
+# LABEL/SEARCH AGAIN
+#: LABEL/SEARCH AGAIN
+msgid "Search Again…"
+msgstr "Nueva Búsqueda"
+
+# TRANSLATION
+# LABEL/SEARCH USERS
+#: LABEL/SEARCH USERS
+msgid "Search Users"
+msgstr "Buscar Usuarios"
+
+# TRANSLATION
+# LABEL/NEW USERS
+#: LABEL/NEW USERS
+msgid "New Users"
+msgstr "Nuevo Usurios"
+
+# TRANSLATION
+# LABEL/EMAIL
+#: LABEL/EMAIL
+msgid "Email"
+msgstr "Correo"
+
+# TRANSLATION
+# LABEL/EMAIL
+#: LABEL/EMAIL
+msgid "EMAIL"
+msgstr "CORREO"
+
+# TRANSLATION
+# LABEL/DATE
+#: LABEL/DATE
+msgid "Date"
+msgstr "Fecha"
+
+# TRANSLATION
+# LABEL/FIRST NAME
+#: LABEL/FIRST NAME
+msgid "First Name"
+msgstr "Primer Nombre"
+
+# TRANSLATION
+# LABEL/SEARCH
+#: LABEL/SEARCH
+msgid "Search"
+msgstr "Buscar"
+
+# TRANSLATION
+# LABEL/TABLE USERS
+#: LABEL/TABLE USERS
+msgid "Table Users"
+msgstr "TABLA DE USUARIO"
+
+# TRANSLATION
+# LABEL/ADD ROL
+#: LABEL/ADD ROL
+msgid "Add Rol"
+msgstr "Agregar Fila"
+
+# TRANSLATION
+# LABEL/ADD USER
+#: LABEL/ADD USER
+msgid "Add User"
+msgstr "Agregar Usuario"
+
+# TRANSLATION
+# LABEL/ADD
+#: LABEL/ADD
+msgid "Add"
+msgstr "Agregar"
+
+# TRANSLATION
+# LABEL/ADMIN!
+#: LABEL/ADMIN!
+msgid "Admin"
+msgstr "Administrador"
+
+# TRANSLATION
+# LABEL/ADMINISTRATOR
+#: LABEL/ADMINISTRATOR
+msgid "Administrator"
+msgstr "Administrador"
+
+# TRANSLATION
+# LABEL/ADMINISTRATOR OF DE APLICATION
+#: LABEL/ADMINISTRATOR OF DE APLICATION
+msgid "ADMINISTRATOR OF DE APLICATION"
+msgstr "Administrador de Aplicaciones"
+
+# TRANSLATION
+# LABEL/ADMINISTRATOR TASK
+#: LABEL/ADMINISTRATOR TASK
+msgid "Adminitracion Tasks"
+msgstr "Administrador de Tareas"
+
+# TRANSLATION
+# LABEL/CALENDAR
+#: LABEL/CALENDAR
+msgid "Calendar"
+msgstr "Calendario"
+
+# TRANSLATION
+# LABEL/CHOOSE WHAT I SHARE
+#: LABEL/CHOOSE WHAT I SHARE
+msgid "Choose What I Share"
+msgstr "Escoger que Comparto"
+
+# TRANSLATION
+# LABEL/CLEAR LOCALSTORAGE
+#: LABEL/CLEAR LOCALSTORAGE
+msgid "Clear Localstorage"
+msgstr "Borrar Almacenamiento Local"
+
+# TRANSLATION
+# LABEL/CONSULT
+#: LABEL/CONSULT
+msgid "consult"
+msgstr "Consultar"
+
+# TRANSLATION
+# LABEL/CONSULT OF DE APLICATION 
+#: LABEL/CONSULT OF DE APLICATION
+msgid "CONSULT OF DE APLICATION"
+msgstr "Consultar la Aplicación"
+
+# TRANSLATION
+# LABEL/DARK ELEGANCE 
+#: LABEL/DARK ELEGANCE
+msgid "Dark Elegance"
+msgstr "Estilo Oscuro"
+
+# TRANSLATION
+# LABEL/DATE
+#: LABEL/DATE
+msgid "DATE"
+msgstr "FECHA"
+
+# TRANSLATION
+# LABEL/DELETE ROL
+#: LABEL/DELETE ROL
+msgid "Delete Rol"
+msgstr "¿Eliminar Rol?"
+
+# TRANSLATION
+# LABEL/DELETE THIS RECORD
+#: LABEL/DELETE THIS RECORD
+msgid "Delete this record"
+msgstr "¿Eliminar este Registro?"
+
+# TRANSLATION
+# LABEL/DELETE ROL
+#: LABEL/DELETE ROL?
+msgid "delete rol"
+msgstr "¿Eliminar Fila?"
+
+# TRANSLATION
+# LABEL/DELETE USER
+#: LABEL/DELETE USER
+msgid "Delete User"
+msgstr "¿Eliminar Usuario?"
+
+# TRANSLATION
+# LABEL/DESCRIPTION
+#: LABEL/DESCRIPTION
+msgid "Description"
+msgstr "Descripción"
+
+# TRANSLATION
+# LABEL/DESCRIPTION
+#: LABEL/DESCRIPTION
+msgid "DESCRIPTION"
+msgstr "DESCRIPCION"
+
+# TRANSLATION
+# LABEL/DOCUMENT TYPE:
+#: LABEL/DOCUMENT TYPE:
+msgid "DOCUMENT TYPE:"
+msgstr "TIPO DOCUMENTO:"
+
+# TRANSLATION
+# LABEL/DOCUMENTARY
+#: LABEL/DOCUMENTARY
+msgid "Documentary"
+msgstr "Tipo Documento"
+
+# TRANSLATION
+# LABEL/EDIT ROL
+#: LABEL/EDIT ROL
+msgid "Edit Rol"
+msgstr "Editar Rol"
+
+# TRANSLATION
+# LABEL/EDIT USER
+#: LABEL/EDIT USER
+msgid "Edit User"
+msgstr "Editar Usuario"
+
+# TRANSLATION
+# LABEL/EDIT USER
+#: LABEL/EDIT USER
+msgid "edit user"
+msgstr "Editar Usuario"
+
+# TRANSLATION
+# LABEL/END
+#: LABEL/END
+msgid "End"
+msgstr "Fin"
+
+# TRANSLATION
+# LABEL/FACTORY RESET
+#: LABEL/FACTORY RESET
+msgid "Factory Reset"
+msgstr "Restablecer"
+
+# TRANSLATION
+# LABEL/FIRST
+#: LABEL/FIRST
+msgid "First"
+msgstr "Primero"
+
+# TRANSLATION 
+# LABEL/FIRST NAME
+#: LABEL/FIRST NAME
+msgid "FIRST NAME"
+msgstr "PRIMER NOMBRE"
+
+# TRANSLATION 
+# LABEL/FIXED FOOTER
+#: LABEL/FIXED FOOTER
+msgid "Fixed Footer"
+msgstr "Pie de Página"
+
+# TRANSLATION 
+# LABEL/FIXED HEADER
+#: LABEL/FIXED HEADER
+msgid "Fixed Header"
+msgstr "Encabezado de Página"
+
+# TRANSLATION 
+# LABEL/FIXED HEADER
+#: LABEL/FIXED HEADER
+msgid "Fixed Navigation"
+msgstr "Barra de Navegación"
+
+# TRANSLATION 
+# LABEL/FIXED RIBBON
+#: LABEL/FIXED RIBBON
+msgid "Fixed Ribbon"
+msgstr "Desplazamiento de la Página"
+
+# TRANSLATION 
+# LABEL/GALLERY
+#: LABEL/GALLERY
+msgid "Gallery"
+msgstr "Galería"
+
+# TRANSLATION 
+# LABEL/GALLERY
+#: LABEL/GALLERY
+msgid "Google Skin"
+msgstr "Pie de Google"
+
+# TRANSLATION 
+# LABEL/GROUP
+#: LABEL/GROUP
+msgid "GROUP"
+msgstr "GRUPO"
+
+# TRANSLATION 
+# LABEL/GROUP
+#: LABEL/GROUP
+msgid "Group"
+msgstr "Grupo"
+
+# TRANSLATION 
+# LABEL/HOME
+#: LABEL/HOME
+msgid "Home"
+msgstr "Página Principal"
+
+# TRANSLATION 
+# LABEL/INDEX
+#: LABEL/INDEX
+msgid "Index"
+msgstr "Índice"
+
+# TRANSLATION 
+# LABEL/INSIDE .CONTAINER (NON-RESPONSIVE)
+#: LABEL/INSIDE .CONTAINER (NON-RESPONSIVE)
+msgid "Inside .container (non-responsive)"
+msgstr "Contenedor de la Página"
+
+# TRANSLATION 
+# LABEL/INVOICE
+#: LABEL/INVOICE
+msgid "Invoice"
+msgstr "Factura"
+
+# TRANSLATION 
+# LABEL/KEY
+#: LABEL/KEY
+msgid "KEY"
+msgstr "CLAVE"
+
+# TRANSLATION 
+# LABEL/KEY
+#: LABEL/KEY
+msgid "Key"
+msgstr "Clave"
+
+# TRANSLATION 
+# LABEL/LAST ACCOUNT ACTIVITY
+#: LABEL/LAST ACCOUNT ACTIVITY
+msgid "Last account activity"
+msgstr "Última Actividad de la Cuenta"
+
+# TRANSLATION 
+# LABEL/LAST NAME
+#: LABEL/LAST NAME
+msgid "Last Name"
+msgstr "Apellido"
+
+# TRANSLATION 
+# LABEL/LAST NAME
+#: LABEL/LAST NAME
+msgid "LAST NAME"
+msgstr "APELLIDO"
+
+# TRANSLATION 
+# LABEL/LAYOUT OPTIONS
+#: LABEL/LAYOUT OPTIONS
+msgid "Layout Options"
+msgstr "Segundo Apellido"
+
+# TRANSLATION 
+# LABEL/MAIL
+#: LABEL/MAIL
+msgid "Mail"
+msgstr "Correo Electrónico"
+
+# TRANSLATION 
+# LABEL/MAPS
+#: LABEL/MAPS
+msgid "Maps"
+msgstr "Mapas"
+
+# TRANSLATION 
+# LABEL/MENU ON TOP
+#: LABEL/MENU ON TOP
+msgid "Menu on top"
+msgstr "Menú Superior"
+
+# TRANSLATION 
+# LABEL/MY PROFILE
+#: LABEL/MY PROFILE
+msgid "My Profile"
+msgstr "Mi perfil"
+
+# TRANSLATION 
+# LABEL/NAME
+#: LABEL/NAME
+msgid "NAME"
+msgstr "Nombre"
+
+# TRANSLATION 
+# LABEL/NEW DOCUMENT
+#: LABEL/NEW DOCUMENT
+msgid "New Document"
+msgstr "Nuevo Documento"
+
+# TRANSLATION 
+# LABEL/NEW INDEXES
+#: LABEL/NEW INDEXES
+msgid "New Indexe"
+msgstr "Nuevo Índice"
+
+# TRANSLATION 
+# LABEL/NEW PERMISSIONS
+#: LABEL/NEW PERMISSIONS
+msgid "New Permissions"
+msgstr "Nuevo Permiso"
+
+# TRANSLATION 
+# LABEL/NEW ROL
+#: LABEL/NEW ROL
+msgid "New Rol"
+msgstr "Nuevo Rol"
+
+# TRANSLATION 
+# LABEL/NEXT
+#: LABEL/NEXT
+msgid "Next"
+msgstr "Siguente"
+
+# TRANSLATION 
+# LABEL/PERMISSION
+#: LABEL/PERMISSION
+msgid "Permission"
+msgstr "Permiso"
+
+# TRANSLATION 
+# LABEL/PERMISSION
+#: LABEL/PERMISSION
+msgid "PERMISSION"
+msgstr "PERMISO"
+
+# TRANSLATION 
+# LABEL/PERMISSIONS
+#: LABEL/PERMISSIONS
+msgid "Permissions"
+msgstr "Permisos"
+
+# TRANSLATION 
+# LABEL/PREVIOUS
+#: LABEL/PREVIOUS
+msgid "Previous"
+msgstr "Anterior"
+
+# TRANSLATION 
+# LABEL/RECENT PROJECTS
+#: LABEL/RECENT PROJECTS
+msgid "Recent projects"
+msgstr "Proyectos Recientes"
+
+# TRANSLATION 
+# LABEL/REGISTRATION SEARCH ADVANCED
+#: LABEL/REGISTRATION SEARCH ADVANCED
+msgid "Registration Search Advanced"
+msgstr "Registro Búsqueda Avanzada"
+
+# TRANSLATION 
+# LABEL/RETENTION TABLE
+#: LABEL/RETENTION TABLE
+msgid "Retention table"
+msgstr "Tabla de Retención"
+
+# TRANSLATION 
+# LABEL/ROL
+#: LABEL/ROL
+msgid "Rol"
+msgstr "Rol"
+
+# TRANSLATION 
+# LABEL/ROL
+#: LABEL/ROL
+msgid "ROL"
+msgstr "ROL"
+
+# TRANSLATION 
+# LABEL/ROLE
+#: LABEL/ROLE
+msgid "Role"
+msgstr "Role"
+
+# TRANSLATION 
+# LABEL/SELECCIONE
+#: LABEL/SELECCIONE
+msgid "Select"
+msgstr "Seleccione"
+
+# TRANSLATION 
+# LABEL/SEARCH AGAIN
+#: LABEL/SEARCH AGAIN
+msgid "Search again"
+msgstr "Busca de Nuevo"
+
+# TRANSLATION 
+# LABEL/SEARCH GROUP
+#: LABEL/SEARCH GROUP
+msgid "Search Group"
+msgstr "Busca Grupo"
+
+# TRANSLATION 
+# LABEL/SEARCH INDEXES
+#: LABEL/SEARCH INDEXES
+msgid "Search Indexes"
+msgstr "Busca índice"
+
+# TRANSLATION 
+# LABEL/SEARCH PERMISSION
+#: LABEL/SEARCH PERMISSION
+msgid "Search Permission"
+msgstr "Buscar Permiso"
+
+# TRANSLATION 
+# LABEL/SEARCH ROL
+#: LABEL/SEARCH ROL
+msgid "Search Rol"
+msgstr "Buscar Rol"
+
+# TRANSLATION 
+# LABEL/SEARIE
+#: LABEL/SERIE
+msgid "Serie:"
+msgstr "Serie:"
+
+# TRANSLATION 
+# LABEL/SMART DEFAULT
+#: LABEL/SMART DEFAULT
+msgid "Smart Default"
+msgstr "Predeterminado"
+
+# TRANSLATION 
+# LABEL/SMARTADMIN SKINS
+#: LABEL/SMARTADMIN SKINS
+msgid "SmartAdmin Skins"
+msgstr "SmartAdmin Skins"
+
+# TRANSLATION 
+# LABEL/SEARCH AGAIN
+#: LABEL/SEARCH AGAIN
+msgid "Seach again"
+msgstr "Nueva Búsqueda"
+
+# TRANSLATION 
+# LABEL/REGISTRATION SEARCH ADVANCED
+#: LABEL/REGISTRATION SEARCH ADVANCED
+msgid "Search Advanced"
+msgstr "Búsqueda Avanzada"
+
+# TRANSLATION
+# LABEL/TABLE ROL
+#: LABEL/TABLE ROL
+msgid "Table Rol"
+msgstr "Tabla de Reles"
+
+# TRANSLATION
+# LABEL/TABLE NEW TYPE DOCUMENT
+#: LABEL/TABLE NEW TYPE DOCUMENT
+msgid "New Type Document"
+msgstr "Nuevo Tipo Documental"
+
+# TRANSLATION
+# LABEL/TABLE NEW FIELD INDEX
+#: LABEL/TABLE NEW FIELD INDEX
+msgid "New Field Index"
+msgstr "Nuevo Campo Indice"
+
+# TRANSLATION
+# LABEL/TABLE DOCUMEN TYPES
+#: LABEL/TABLE DOCUMEN TYPES
+msgid "Table Document Types"
+msgstr "Tabla de Tipos Documentales"
+
+# TRANSLATION
+# LABEL/TABLE INDEXES
+#: LABEL/TABLE INDEXES
+msgid "Table Indexes"
+msgstr "Tabla de Indices"
+
+# TRANSLATION
+# LABEL/REPOSITORY
+#: LABEL/REPOSITORY
+msgid "Repository"
+msgstr "Bodega"
+
+# TRANSLATION
+# LABEL/TABLE PERMISSIONS
+#: LABEL/TABLE PERMISSIONS
+msgid "Table Permissions"
+msgstr "Tabla Permisos"
+
+# TRANSLATION
+# LABEL/NEW GROUP
+#: LABEL/NEW GROUP
+msgid "New Group"
+msgstr "Nuevo Grupo"
+
+# TRANSLATION
+# LABEL/TYPE:
+#: LABEL/TYPE:
+msgid "TYPE"
+msgstr "TIPO"
+
+# TRANSLATION
+# LABEL/TYPE
+#: LABEL/TYPE
+msgid "Type"
+msgstr "Tipo"
+
+# TRANSLATION
+# LABEL/NEW DOCUMENT TYPE
+#: LABEL/NEW DOCUMENT TYPE
+msgid "New Document Type"
+msgstr "Nuevo Tipo Documento"
+
+# TRANSLATION
+# LABEL/DOCUMENT TYPE
+#: LABEL/DOCUMENT TYPE
+msgid "Document Type"
+msgstr "Tipo Documento"
+
+# TRANSLATION
+# LABEL/SEARCH DOCUMENT
+#: LABEL/SEARCH DOCUMENT
+msgid "Search Document"
+msgstr "Buscar Documento"
+
+# TRANSLATION
+# LABEL/DOCUMENT
+#: LABEL/DOCUMENT
+msgid "Document"
+msgstr "Documento"
+
+# TRANSLATION
+# LABEL/TABLE RETENTION
+#: LABEL/TABLE RETENTION
+msgid "Table Retention"
+msgstr "Tabla de Retención"
+
+# TRANSLATION
+# LABEL/TABLE VALORATION
+#: LABEL/TABLE VALORATION
+msgid "Table Valoration "
+msgstr "Tabla de Valoración"
+
+# TRANSLATION
+# LABEL/PATH
+#: LABEL/PATH
+msgid "PATH"
+msgstr "Ruta"
+
+# TRANSLATION
+# LABEL/NEW REPOSITORY
+#: LABEL/NEW REPOSITORY
+msgid "New Repository"
+msgstr "Nueva Bodega"
+
+# TRANSLATION
+# LABEL/READING EPOSITORY
+#: LABEL/READING REPOSITORY
+msgid "Reading Repository"
+msgstr "Lectura de Bodega"
+
+# TRANSLATION
+# LABEL/SEARCH REPOSITORY
+#: LABEL/SEARCH REPOSITORY
+msgid "Search Repository"
+msgstr "Buscar Bodega"
+
+# TRANSLATION
+# LABEL/DROP FILE TO UPLOAD
+#: LABEL/DROP FILE TO UPLOAD
+msgid "Drop file to upload"
+msgstr "Arrastre y Suelte Archivos Para Subir"
+
+# TRANSLATION
+# LABEL/OR CLICK
+#: LABEL/OR CLICK
+msgid "or click"
+msgstr "(Haga Click Aqui)"
+
+# TRANSLATION
+# LABEL/UPLOAD
+#: LABEL/UPLOAD
+msgid "upload"
+msgstr "Subir"
+
+# TRANSLATION
+# LABEL/UPLOAD LOGO
+#: LABEL/UPLOAD LOGO
+msgid "Use Logo"
+msgstr "Usar Logo"
+
+# TRANSLATION
+# LABEL/Apply
+#: LABEL/Apply
+msgid "Apply"
+msgstr "Aplicar"
+
+# TRANSLATION
+# LABEL/APLICATE LOGO
+#: LABEL/APLICATE LOGO
+msgid "Aplicate Logo"
+msgstr "Aplicar Logo"
+
+# TRANSLATION
+# LABEL/MY DROPZONE
+#: LABEL/MY DROPZONE
+msgid "My Dropzone"
+msgstr "Cargar Archivos"
+
+# TRANSLATION
+# LABEL/CREATE NEW USER
+#: LABEL/CREATE NEW USER
+msgid "Create New User"
+msgstr "Crear Nuevo Usuario"
+
+# TRANSLATION
+# LABEL/CREATE USER
+#: LABEL/CREATE USER
+msgid "Create User"
+msgstr "Creación de Usuarios"
+
+# TRANSLATION
+# LABEL/CONFIRM PASSWORD
+#: LABEL/CONFIRM PASSWORD
+msgid "Confirm Password"
+msgstr "Confirme Contraseña"
+
+# TRANSLATION
+# LABEL/ENABLE
+#: LABEL/ENABLE
+msgid "Enable"
+msgstr "Activo"
+
+# TRANSLATION
+# LABEL/DISABLED
+#: LABEL/DISaBLE
+msgid "Disable"
+msgstr "Inactivo"
+
+# TRANSLATION 
+# LABEL/STATUS1
+#: LABEL/STATUS1
+msgid "Status"
+msgstr "Estado"
+
+# TRANSLATION 
+# LABEL/STATUS
+#: LABEL/STATUS
+msgid "STATUS"
+msgstr "ESTADO"
+
+# TRANSLATION 
+# LABEL/ENTER THE FIRST NAME
+#: LABEL/ENTER THE FIRST NAME
+msgid "Enter the first Name"
+msgstr "Ingrese el Primer Nombre"
+
+# TRANSLATION 
+# LABEL/ENTER THE LAST NAME
+#: LABEL/ENTER THE LAST NAME
+msgid "Enter the Last Name"
+msgstr "Ingrese el Apellido"
+
+# TRANSLATION 
+# LABEL/ENTER THE LOGIN
+#: LABEL/ENTER THE LOGIN
+msgid "Enter the Login"
+msgstr "Ingrese ID de Usuario"
+
+# TRANSLATION 
+# LABEL/THE EMAIL ADDRESS IS INVALID
+#: LABEL/THE EMAIL ADDRESS IS INVALID
+msgid "the email address is invalid"
+msgstr "La Dirección de Correo Electrónico no es Válido"
+
+# TRANSLATION 
+# LABEL/ENTER THE PASSWORD
+#: LABEL/ENTER THE PASSWORD
+msgid "Enter the Password"
+msgstr "Ingrese la Contraseña"
+
+# TRANSLATION 
+# LABEL/ENTER THE CONFIRM PASSWORD
+#: LABEL/ENTER THE CONFIRM PASSWORD
+msgid "Enter the Confirm Password"
+msgstr "Confirme la Contraseña"
+
+# TRANSLATION 
+# LABEL/ENTER THE FIRST ROL
+#: LABEL/ENTER THE FIRST ROL
+msgid "Enter the First Rol"
+msgstr "Ingrese el Rol"
+
+# TRANSLATION 
+# LABEL/CREATE ROL
+#: LABEL/CREATE ROL
+msgid "Create Rol"
+msgstr "Crear Rol"
+
+# TRANSLATION 
+# LABEL/ENTER THE FIRST STATUS
+#: LABEL/ENTER THE FIRST STATUS
+msgid "Enter the First Status"
+msgstr "Ingrese el Estado"
+
+# TRANSLATION 
+# LABEL/CANCEL
+#: LABEL/CANCEL
+msgid "Cancel"
+msgstr "Cancelar"
+
+# TRANSLATION 
+# LABEL/SAVE
+#: LABEL/SAVE
+msgid "Save"
+msgstr "Guardar"
+
+# TRANSLATION 
+# LABEL/SAVE
+#: LABEL/SAVE
+msgid "SAVE"
+msgstr "GUARDAR"
+
+# TRANSLATION 
+# LABEL/CLOSE
+#: LABEL/CLOSE
+msgid "Close"
+msgstr "Cerrar"
+
+# TRANSLATION
+# LABEL/DELETE
+#: LABEL/DELETE
+msgid "Delete"
+msgstr "Eliminar"
+
+# TRANSLATION
+# LABEL/DEPARTAMENT
+#: LABEL/DEPARTAMENT
+msgid "Departament"
+msgstr "Departamento"
+
+# TRANSLATION
+# LABEL/INFO
+#: LABEL/INFO
+msgid "Info"
+msgstr "Informacion"
+
+# TRANSLATION
+# LABEL/CREATE SERIE
+#: LABEL/CREATE SERIE
+msgid "Create Serie"
+msgstr "Crear Serie"
+
+# TRANSLATION
+# LABEL/NAME OF SERIE
+#: LABEL/NAME OF SERIE
+msgid "Name of Serie"
+msgstr "Nombre de la Serie"
+
+# TRANSLATION
+# LABEL/NAME THE ROLE
+#: LABEL/NAME THE ROLE
+msgid "Enter the Role"
+msgstr "Llene los Campos Requeridos"
+
+# TRANSLATION
+# LABEL/EDIT 
+#: LABEL/EDIT 
+msgid "Edit"
+msgstr "Editar"
+
+# TRANSLATION 
+# LABEL/REGISTRATION 
+#: LABEL/REGISTRATION 
+msgid "Registration"
+msgstr "Registro"

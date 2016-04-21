@@ -1,0 +1,5 @@
+Dim strCurDir
+Dim WsShell
+Set WsShell = CreateObject("Wscript.Shell")
+WsShell.Run """C:\Program Files (x86)\LibreOffice 4\program\soffice.exe"" --nologo", 0, True
+Set WsShell = Nothing

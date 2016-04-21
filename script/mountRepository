@@ -1,0 +1,66 @@
+#!/usr/bin/env php
+<?php
+
+require_once '../application/Config.php';
+require_once '../application/Database.php';
+require_once '../application/Model.php';
+require_once '../application/Controller.php';
+require_once '../application/Acl.php';
+require_once '../application/Hash.php';
+require_once '../models/repositoryModel.php';
+require_once '../controllers/repositoryController.php';
+
+$usuario=DB_USER;
+$password=DB_PASS;
+$host=DB_HOST;
+$dbname=DB_NAME;
+
+try{
+
+    $conn = new PDO('mysql:host='.$host.';dbname='.$dbname, $usuario, $password);
+
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+}catch(PDOException $e){
+
+    echo "ERROR: " . $e->getMessage();
+
+}
+
+
+
+$_repository=new repositoryModel();
+$mountrepository=new repositoryController();
+
+//get id_repository
+$id_repository=$_repository->getRepositories();
+foreach ($id_repository as $key) {
+	//verificar si existe el punto de montage
+	$repo=PREFI_REPOSITORY;
+	$repo=explode("/",$repo);
+		
+	$mount=exec("ls -la /".$repo[1]."/|grep ".$repo[2].$key['ID_REPOSITORY']);
+	if($mount!=""){
+		echo "Existe punto de montaje => [ OK ]\n";
+		$ok=true;
+	}else{
+		echo "Existe punto de montaje => [ FAILD ]";
+		if(exec("mkdir ".PREFI_REPOSITORY.$key['ID_REPOSITORY'])==""){
+			$ok=true;
+			echo "Punto de montaje creado => [ OK ]\n";
+		}else{
+			/*impr("Punto de montaje creado => [ FALLO ]\n");
+			$updF=array('estado' => '3');
+			$updW=array('idst_bodega' => $valor['idst_bodega']);
+			$bodegaModelo->update($updF,$updW);
+			$continua=false;*/
+		}
+	}
+
+	if($ok){
+		echo "Mount Repository\n";
+
+	}else{
+
+	}
+}

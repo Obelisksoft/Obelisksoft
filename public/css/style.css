@@ -1,0 +1,104 @@
+.error{
+	color:#F40E0E;
+}
+
+.search{
+
+}
+
+.space{
+	margin-top: 22%;
+	position: relative;
+}
+
+.slide-out-div {
+          padding: 20px;
+          width: 250px;
+          background: #ccc;
+          border: 1px solid #29216d;
+}
+
+a.trigger{
+	position: absolute;
+	background:#88bbd4 url(/public/img/plus.png) 6% 55% no-repeat;
+	text-decoration: none;	
+	font-size: 16px;
+	letter-spacing:-1px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	color:#fff;
+	padding:4px 12px 6px 24px;
+	font-weight: bold;
+	
+	z-index:2;
+}
+a.trigger.left {
+	left: 225px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+a.trigger.right {
+	right: 0;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+}
+a.trigger:hover {
+	background-color:#59B;
+}
+a.active.trigger {
+	background:#666 url(/public/img/minus.png) 6% 55% no-repeat;
+}
+
+}
+.panel.left {
+	left: 130px;
+	padding: 20px 30px 20px 100px;
+	border-top-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.panel.right {
+	right: 0;
+	padding: 20px 100px 20px 30px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-topleft: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+}
+.panel p {
+	font-size:11px;
+}
+
+.iframel{
+	padding: 20px 30px 300px 100px;
+	
+	width: 270px;
+	height: auto;
+}
+
+.logo{
+	margin:  0px 20px;
+	position: relative;
+
+}
+
+.newposition{
+	float: right;
+}
+
+.es-carousel ul{
+					display:block;
+				}
+

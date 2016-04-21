@@ -1,0 +1,452 @@
+@CHARSET "UTF-8";
+
+html, body {
+    height: 100%;
+    min-width: 100%;
+    position: absolute;
+}
+
+body {
+	margin: 0px auto;
+}
+
+ul li {
+	list-style: none;
+}
+
+html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333333;
+    direction: ltr;
+    font: 81.25%/1 arial,helvetica,sans-serif;
+}
+
+.header {
+background:#F1F1F1;
+	height:80px;
+	margin: 30px auto;
+	border: 1px solid #E5E5E5;
+	left: 0;    
+    top: 0;
+    width: 100%;
+	
+}
+
+.header1 {
+background:#FFFFFF;
+	height:80px;
+	margin: 0px auto;
+	width: 0px auto;
+	border: 0px solid #E5E5E5;
+}
+
+.header2{
+	background:#F1F1F1;
+	height:80px;
+	margin: 0px auto;
+	border: 1px solid #E5E5E5;
+	left: 0;    
+    top: 0;
+    width: 100%;
+	}
+
+.header .separator {
+	
+}
+
+.logo{
+	max-width: 227px; 
+	height: auto;
+}
+
+.login h2{
+	font-size: 16px;
+	height: 16px;
+	line-height: 17px;
+	margin: 0 0 1.2em;
+	position: relative;
+}
+
+.sing-in .login{
+	background: none repeat scroll 0 0 #F1F1F1;
+	border: 1px solid #E5E5E5;
+	margin: 20px 0 0;
+	padding: 19px 24px 16px;
+	}
+	
+.sing-in{
+	float: right;
+	width: 335px
+}
+
+.clearfix:after {
+    clear: right;
+    content: ".";
+    display: block;
+    visibility: hidden;
+}
+
+.main {
+    max-width: 1000px;
+    min-width: 780px;
+    width: auto;
+}
+
+.content {
+    padding: 0px 230px;
+    margin: auto;
+}
+
+.content1 {
+    margin: 100px 70px ;
+	padding: 0px;
+	overflow: hidden;
+	*width: 100%;
+}
+.main {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 23px;
+    width: 650px;
+}
+
+.login .email-label,
+  .login .passwd-label {
+  font-weight: bold;
+  margin: 0 0 .5em;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  }
+  
+  .login h2 strong {
+    background: url("//ssl.gstatic.com/accounts/ui/google-signin-flat.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 52px;
+  }
+  
+  strong {
+    color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222222;
+    font-size: 1.54em;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 0.46em;
+}
+
+.login h2{
+	text-align: left;
+	}
+
+.login h2 strong {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("//ssl.gstatic.com/accounts/ui/google-signin-flat_2x.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 52px 19px;
+}
+.login div {
+    margin: 0 0 1.5em;
+}
+.login label {
+    display: block;
+}
+.login input[type="user"], .login input[type="text"], .login input[type="password"] {
+    direction: ltr;
+    font-size: 16px;
+    height: 35px;
+    width: 100%;
+}
+.login .email-label, .login .passwd-label {
+    -moz-user-select: none;
+    display: block;
+    font-weight: bold;
+    margin: 20 0 0.5em;
+    text-align: left;
+}
+
+
+.button-submit{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#FFFFFF;
+	background-color:#4D90FE;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border: 1px solid #3079ED;
+	font-family:81.25%/1 arial,helvetica,sans-serif;
+	font-size:16px;
+	font-weight:500;
+	height:32px;
+	padding:4px 16px;
+	text-shadow:#FE6 0 1px 0;
+	margin: 0;
+	cursor: pointer;
+	    
+	}	
+	
+ul li {
+	list-style: none;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.textual {
+    border-color: #CCCCCC #999999 #999999 #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font: 16px arial,sans-serif bold;
+    height: 30px;
+    padding: 5px 8px 0 6px;
+    width: 600px !important;
+}
+
+.button-submit1{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#666666;
+	background-color:#F5F5F5;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border: 1px solid #666666;
+	font-family:81.25%/1 arial,helvetica,sans-serif;
+	font-size:16px;
+	font-weight:500;
+	height:32px;
+	padding:4px 16px;
+	text-shadow:#FE6 0 1px 0;
+	margin: 5px 5px;
+	    
+	}	
+	
+.mnuUsuario {
+	float: right;
+	font-size: 13px;
+	color: #006699;
+	text-align: right;
+	margin: 32px auto;
+	
+}
+
+.mnuUsuario a {
+	font-size: 13px;
+	text-decoration: underline !important;
+}
+
+.formulario{
+	margin: 20px 200px;
+	}
+.logo2{
+		padding:4px 16px;
+		float:left;
+		height:10px auto;
+		margin:1px;
+	}
+.fieldsS2 {
+	padding: 0px 0px 0px 20px;
+}
+
+.fieldsS22 {
+	padding: 0px 0px 0px 0px;
+	*padding: 1px 0px 0px 0px;
+}
+
+.ultextual2 {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+
+.result{
+	margin: 20 200px;
+	}
+	
+/* tooltip styling */
+.tooltip {
+	display: none;
+	background: url(/images/white_big.png) left 15px no-repeat;
+	height: 180px;
+	padding: 60px 30px 10px 30px;
+	width: 395px;
+	font-size: 11px;
+	color: #58ACFA;
+	top: 0px !important;
+	float: none;
+}
+
+/* a .label element inside tooltip */
+.tooltip .label {
+	color: yellow;
+	width: 35px;
+}
+
+.tooltip a {
+	color: #ad4;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.textajax {
+	color: #ad4;
+	float: none;
+}
+
+.resultSearch li {
+	margin-bottom: 15px;
+	display: block;
+	float: left;
+	clear: both;
+}
+
+.resultSearch li .a1 {
+	color: #2200C1;
+	font-size: 15px;
+	float: left;
+}
+
+.resultSearch li p {
+	margin: 2px 0px 0px 0px;
+	color: #000;
+	font-size: 12px;
+	clear: both;
+	padding-top: 6px;
+}
+
+.resultSearch li p span {
+	float: none;
+	color: #088A08;
+}
+
+.resultSearch li span {
+	padding-top: 3px;
+	float: left;
+}
+
+.resultSearch li span a {
+	color: #0E774A;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.deBus {
+	padding: 0px 200px;
+	width: 50%;
+	
+}
+
+#Pagination {
+	height: 45px;
+	margin-top: 8px;
+	float: left;
+	clear: both;
+}
+.lnkSearch {
+	height: 20px;
+	width: 30px;
+	float: left;
+}
+
+.infotolltip {
+	background: url(/images/infotolltip.png) left top no-repeat;
+	height: 20px;
+	width: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.lnkOpc .liFrst {
+	background: none;
+}
+
+.scrollInfo {
+	width: 310px;
+	height: 140px;
+	background: none;
+	border: none;
+}
+
+#nav li.current a {
+	background: #ddd;
+}
+
+#nav li.current a:hover {
+	
+}
+
+#nav li ul {
+	display: none;
+	position: absolute;
+	width: 100px;
+	top: 18px;
+	left: 0;
+	font-weight: normal;
+	padding: 1px 0 1px 0;
+	margin-left: -1px;
+	border: 1px #558be3 solid;
+	background: #ffffff;
+	z-index: 100000;
+}
+
+#nav li ul li {
+	border-width: 0 1px 1px 1px !important;
+	text-align: left;
+	width: 100px;
+}
+
+#nav li ul li a {
+	font-weight: normal !important;
+	text-decoration: none;
+}
+
+#nav li>ul {
+	top: auto;
+	left: auto;
+}
+
+#nav li:hover ul,#nav li.over ul {
+	display: block;
+}
+
+.messag{
+	position: absolute;
+	margin: auto 710px;
+}
+
+.tooladmin{
+	cursor: pointer;
+}
+
+#footer{
+	color: #1C1C1C;
+	width: 100%;
+	padding:10px;
+	text-align: center;
+}
+
+#footer a{
+	color: #0101DF;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,5 @@
+<VirtualHost *:80>
+        ServerName sgd.obelisksoft.com
+        ServerAlias sgd.obelisksoft.com
+        DocumentRoot /var/www/html/obelisksoft/
+</VirtualHost>
