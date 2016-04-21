@@ -27,7 +27,7 @@ class services {
     */
     public function register_user($phone, $email){
        //tu codigo…
-       return "OK";
+       return "ok";
     }
     /**
     *
