@@ -36,6 +36,6 @@ class services {
     */
     public function downgrade_user($phone){
        //tu codigo…
-       return "OK";
+       return "Ok";
     }
 }
