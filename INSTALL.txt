@@ -1,4 +1,4 @@
-ProcessMaker Installation
+ObeliskSoft Installation
 =========================
 
 Contents:
@@ -13,7 +13,7 @@ Contents:
 |*Requirements for Server *|
 ---------------------------
 
-ProcessMaker 2.0 and later requires:
+ObeliskSoft 0.1 and later requires:
 
 * Linux or UNIX or Windows (XP, Vista, 7, Server 2003, Server 2008)
 
@@ -77,30 +77,24 @@ configuration to take effect.
 -------------------------------
 |* ObeliskSoft Installation *|
 -------------------------------
-1. Go to http://sourceforge.net/projects/processmaker/files and download a
-recent tarball of ProcessMaker, which should be named "processmaker-2.X-X.tar.gz"
+1. Go to https://github.com/Obelisksoft/Obelisksoft.git and press the button Download Zip
 
-The versions are numbered according to the pattern MAJOR.MINOR-REVISION, such
-as "1.0.1". Beta versions will have the word "beta" appended to the version
-number.
-
-2. Move the "obelisksoft-X.X-X.tar.gz" file which was downloaded to the
+2. Move the "Obelisksoft-master.zip" file which was downloaded to the
 directory in your server where the ObeliskSoft application will be stored.
+in Windows
 
 ObeliskSoft can be installed in directory "/var/www/html" in Linux/UNIX.
+
 
 In Linux/UNIX, it is generally installed in the "/var/www/html" directory, since it is an
 optional program which doesn't come from the standard repositories.
 
-3. The code files are in .tar.gz format and can be extracted using most
-compression tools, like the "tar" command in Linux/UNIX or WinRAR or 7-Zip in
-Windows.
 
  Linux/UNIX:
-   tar -xvzf obelisksoft-X.X-X.tar.gz /var/www/html
+   git clone https://github.com/Obelisksoft/Obelisksoft.git /var/www/html
 
  MS Windows:
-   Use WinRAR or 7-Zip to extract the file obelisksoft-X.X-X.tar.gz
+   Use WinRAR or 7-Zip to extract the file Obelisksoft-master.zip
 
 This will create a new "obelisksoft" directory, containing all the ObeliskSoft
 files and directories, which should have the following contents:
